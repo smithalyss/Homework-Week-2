@@ -1,4 +1,8 @@
 # Homework-Week-2
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3f5bc977422b75f78f83c382b8b7b5be67468e47
 # 02 Advanced CSS: Portfolio
 
 ## Your Task
@@ -94,4 +98,8 @@ You are required to submit BOTH of the following for review:
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
 - - -
+<<<<<<< HEAD
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+=======
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+>>>>>>> 3f5bc977422b75f78f83c382b8b7b5be67468e47
