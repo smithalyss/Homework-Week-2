@@ -1,0 +1,129 @@
+
+body {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    background-color: lightslategray;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style: none;
+    padding: 20px;
+}
+nav a {
+    padding: 30px;
+    background-color: lightblue;
+    text-decoration: none;
+}
+nav a:hover {
+    color: white;
+}
+.section-about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+section p {
+    padding: 20px;
+}
+h2 {
+    height: 70px;
+    width: 140px;
+    display: inline-block;
+    flex-direction: column;
+    border-right: solid black;
+    padding: 25px 25px;
+    flex-wrap: wrap;
+}
+#About-Me-Paragraph {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Contact-Me-Nav {
+    position:  relative;
+    bottom: 150px;
+    left: 200px;
+    margin: solid 2px;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: row;
+    background-image: url(https://cdn.wallpapersafari.com/67/76/qtpSIw.jpg);
+}
+
+#card1 {
+  flex: 1 0 0;
+  flex: column;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  width: 200px;
+  height: 200px;
+  max-height: 400px;
+  max-width: 400px;
+  position: relative;
+  bottom: 150px;
+  left: 200px;
+}
+img {
+    max-width: 70%;
+    max-height: 90%;
+}
+#week_1_pic {
+    width: auto;
+    height: auto;
+}
+
+.projects {
+    flex-wrap: wrap;
+}
+.profile_pic {
+    width: 100px;
+}
+.section-work {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+footer {
+    height: 70px;
+    width: 140px;
+    display: inline-block;
+    flex-direction: column;
+    border-right: solid black;
+    padding: 25px 25px;
+    flex-wrap: wrap;
+}
+@media  screen and (max-width: 992px) {
+    body {
+        max-width: 50%;
+        background-color: pink; 
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    body {
+        max-width: 75%;
+        background-color: lavender;
+    }
+    
+}
+@media screen and (max-width: 576px) {
+    body {
+        max-width: 100%;
+        background-color: lightcoral;
+    }
+    
+}
